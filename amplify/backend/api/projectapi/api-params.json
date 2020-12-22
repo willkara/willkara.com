@@ -1,19 +1,19 @@
 {
     "paths": [
         {
-            "name": "/projects",
-            "lambdaFunction": "project-api-manager",
+            "name": "/project",
+            "lambdaFunction": "projectManager",
             "privacy": {
                 "open": true
             },
-            "policyResourceName": "/projects"
+            "policyResourceName": "/project"
         }
     ],
-    "resourceName": "projectapi",
-    "apiName": "projectapi",
+    "resourceName": "projectAPI",
+    "apiName": "projectAPI",
     "functionArns": [
         {
-            "lambdaFunction": "project-api-manager"
+            "lambdaFunction": "projectManager"
         }
     ],
     "privacy": {
@@ -25,7 +25,7 @@
     "dependsOn": [
         {
             "category": "function",
-            "resourceName": "project-api-manager",
+            "resourceName": "projectManager",
             "attributes": [
                 "Name",
                 "Arn"

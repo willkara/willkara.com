@@ -6,7 +6,7 @@
     }
   },
   "function": {
-    "project-api-manager": {
+    "projectManager": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
@@ -23,13 +23,13 @@
     }
   },
   "api": {
-    "projectapi": {
+    "projectAPI": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "project-api-manager",
+          "resourceName": "projectManager",
           "attributes": [
             "Name",
             "Arn"
