@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/projects",
+            "lambdaFunction": "project-api-manager",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/projects"
+        }
+    ],
+    "resourceName": "projectapi",
+    "apiName": "projectapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "project-api-manager"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-willkara-prod-145730-authRole",
+        "unAuthRoleName": "amplify-willkara-prod-145730-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "project-api-manager",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

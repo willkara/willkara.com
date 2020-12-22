@@ -1,0 +1,17 @@
+{
+  "projectName": "willkara",
+  "version": "3.0",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "angular",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": "dist/willkara",
+      "BuildCommand": "npm.cmd run-script build -- --prod",
+      "StartCommand": "ng serve"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}

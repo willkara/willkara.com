@@ -1,0 +1,41 @@
+{
+  "storage": {
+    "projectlist": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "function": {
+    "project-api-manager": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "storage",
+          "resourceName": "projectlist",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  },
+  "api": {
+    "projectapi": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "project-api-manager",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  }
+}
