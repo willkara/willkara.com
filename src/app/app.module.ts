@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { AttributionsComponent } from './components/attributions/attributions.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AboutmeComponent } from './components/aboutme/aboutme.component';
     HomeComponent,
     ProjectsComponent,
     AboutmeComponent,
+    AttributionsComponent,
   ],
   imports: [
     BrowserModule,
