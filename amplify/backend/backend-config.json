@@ -14,7 +14,10 @@
         {
           "category": "storage",
           "resourceName": "projectlist",
-          "attributes": ["Name", "Arn"]
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
       ]
     }
@@ -27,7 +30,10 @@
         {
           "category": "function",
           "resourceName": "projectManager",
-          "attributes": ["Name", "Arn"]
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
       ]
     }
