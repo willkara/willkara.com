@@ -1,5 +1,12 @@
 <div class="wrapper d-flex align-items-stretch" style="height: 100%">
-  <nav id="sidebar">
+  <nav id="sidebar" [className]="status ? 'active' : ''">
+    <div class="custom-menu">
+      <button
+        (click)="toggler()"
+        id="sidebarCollapse"
+        class="btn btn-primary"
+      ></button>
+    </div>
     <div
       class="img bg-wrap text-center py-4"
       style="background-image: url(assets/images/bg.jpg)"

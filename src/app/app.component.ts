@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'willkara';
+  status: boolean = false;
+  toggler() {
+    console.log('wowza');
+    this.status = !this.status;
+  }
 }
