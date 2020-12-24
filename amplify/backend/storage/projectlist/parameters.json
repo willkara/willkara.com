@@ -1,5 +1,5 @@
 {
-    "tableName": "projectlist",
-    "partitionKeyName": "ProjectID",
-    "partitionKeyType": "N"
+  "tableName": "projectlist",
+  "partitionKeyName": "ProjectID",
+  "partitionKeyType": "N"
 }

@@ -91,7 +91,7 @@
 }
 
 @each $color, $value in $theme-colors {
-  @include text-emphasis-variant(".text-#{$color}", $value);
+  @include text-emphasis-variant('.text-#{$color}', $value);
 }
 
 .text-body {
@@ -103,11 +103,11 @@
 }
 
 .text-black-50 {
-  color: rgba($black, .5) !important;
+  color: rgba($black, 0.5) !important;
 }
 
 .text-white-50 {
-  color: rgba($white, .5) !important;
+  color: rgba($white, 0.5) !important;
 }
 
 // Misc

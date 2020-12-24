@@ -3,7 +3,6 @@
 // .modal-dialog    - positioning shell for the actual modal
 // .modal-content   - actual modal w/ bg and corners and stuff
 
-
 .modal-open {
   // Kill the scroll on the body
   overflow: hidden;
@@ -79,7 +78,7 @@
   &::before {
     display: block; // IE10
     height: calc(100vh - #{$modal-dialog-margin * 2});
-    content: "";
+    content: '';
   }
 
   // Ensure `.modal-body` shows scrollbar (IE10/11)
@@ -149,7 +148,8 @@
   .close {
     padding: $modal-header-padding;
     // auto on the left force icon to the right even when there is no .modal-title
-    margin: (-$modal-header-padding-y) (-$modal-header-padding-x) (-$modal-header-padding-y) auto;
+    margin: (-$modal-header-padding-y) (-$modal-header-padding-x)
+      (-$modal-header-padding-y) auto;
   }
 }
 
@@ -180,11 +180,11 @@
 
   // Easily place margin between footer elements
   > :not(:first-child) {
-    margin-left: .25rem;
+    margin-left: 0.25rem;
   }
 
   > :not(:last-child) {
-    margin-right: .25rem;
+    margin-right: 0.25rem;
   }
 }
 
