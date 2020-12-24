@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="522px" preserveAspectRatio="none" style="width:616px;height:522px;" version="1.1" viewBox="0 0 616 522" width="616px" zoomAndPan="magnify"><defs/><g><!--MD5=[f784845a77f4a5592f7d88a22fe728c0]
+entity _aboutme_component--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="140" x="429.509" y="477"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="120" x="439.509" y="499.0059">aboutme.component</text><ellipse cx="499.2826" cy="438.7547" fill="#F8F8F8" rx="96.7736" ry="21.7547" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="173" x="412.7826" y="442.4969">aboutme.component.spec</text><!--MD5=[cba1910c10abf5ef593c40682bf056a6]
+entity _app_routing_module--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="132" x="215.509" y="327"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="112" x="225.509" y="349.0059">app-routing.module</text><!--MD5=[b08ed6e5409dbdfff72b75dc12292bd0]
+entity _app_component--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="110" x="226.509" y="377"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="90" x="236.509" y="399.0059">app.component</text><ellipse cx="281.3766" cy="292.1735" fill="#F8F8F8" rx="81.3676" ry="18.6735" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="211.8766" y="295.9157">app.component.spec</text><ellipse cx="97.2691" cy="188.052" fill="#F8F8F8" rx="60.7601" ry="14.552" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="52.2691" y="191.7942">app.e2e-spec</text><!--MD5=[a2785d03199c592de6063576bb7e3eae]
+entity _app_module--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="87" x="54.009" y="368"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="64.009" y="390.0059">app.module</text><!--MD5=[8ee23255387777f93b106c1b575b9e0d]
+entity _app_po--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="59" x="68.009" y="219"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="39" x="78.009" y="241.0059">app.po</text><!--MD5=[f12c1d1fc3e8affa1605a8cae01a91b1]
+entity _attributions_component--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="154" x="422.509" y="151"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="134" x="432.509" y="173.0059">attributions.component</text><ellipse cx="499.6113" cy="111.0205" fill="#F8F8F8" rx="105.6023" ry="23.5205" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="403.6113" y="114.7626">attributions.component.spec</text><ellipse cx="97.7103" cy="21.9403" fill="#F8F8F8" rx="57.7013" ry="13.9403" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="82" x="56.7103" y="25.6824">aws-exports</text><ellipse cx="97.7136" cy="339.242" fill="#F8F8F8" rx="53.2046" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="71" x="62.2136" y="342.9842">environment</text><ellipse cx="97.3847" cy="69.1751" fill="#F8F8F8" rx="71.3757" ry="16.6751" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="39.3847" y="72.9173">environment.prod</text><!--MD5=[98d1b962689cc2effbb41147334e4c93]
+entity _home_component--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="122" x="438.509" y="367"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="102" x="448.509" y="389.0059">home.component</text><ellipse cx="499.6947" cy="330.8371" fill="#F8F8F8" rx="87.1857" ry="19.8371" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="152" x="423.6947" y="334.5793">home.component.spec</text><ellipse cx="97.28" cy="114.8542" fill="#F8F8F8" rx="54.771" ry="13.3542" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="60.28" y="118.5964">karma.conf</text><ellipse cx="97.6364" cy="297.242" fill="#F8F8F8" rx="25.6274" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="81.6364" y="300.9842">main</text><ellipse cx="281.4857" cy="22.242" fill="#F8F8F8" rx="40.4767" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="254.9857" y="25.9842">polyfills</text><!--MD5=[bd3ba67cbbcaa37771717a8c90cb1e30]
+entity _projects_component--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="137" x="431.009" y="261"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="117" x="441.009" y="283.0059">projects.component</text><ellipse cx="499.3609" cy="223.0704" fill="#F8F8F8" rx="95.8519" ry="21.5704" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="413.8609" y="226.8126">projects.component.spec</text><ellipse cx="281.6498" cy="66.9282" fill="#F8F8F8" rx="65.1408" ry="15.4282" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="101" x="231.1498" y="70.6704">protractor.conf</text><ellipse cx="281.3938" cy="112.242" fill="#F8F8F8" rx="21.3848" ry="13.242" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="26" x="268.3938" y="115.9842">test</text><!--MD5=[f218ae2de7932c695efc003e8f0721e7]
+link <b>aboutme.component.spec</b> to _aboutme_component--><path d="M499.509,461.1558 C499.509,464.5807 499.509,468.0056 499.509,471.4305 " fill="none" id="&lt;b&gt;aboutme.component.spec&lt;/b&gt;-&gt;_aboutme_component" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="499.509,476.8125,503.509,467.8125,499.509,471.8125,495.509,467.8125,499.509,476.8125" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[66b95991265f1ede4c1cdfaf2536da98]
+link _app_routing_module to _aboutme_component--><path d="M347.72,357.878 C353.335,360.888 358.561,364.549 363.009,369 C395.903,401.911 360.042,437.1974 394.009,469 C402.588,477.0323 413.273,482.6252 424.508,486.493 " fill="none" id="_app_routing_module-&gt;_aboutme_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="429.353,488.0471,422.0048,481.4893,424.5919,486.5199,419.5613,489.1071,429.353,488.0471" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[fc7c0884d259c9d7b934a2b3611e57df]
+link _app_routing_module to _attributions_component--><path d="M347.601,330.597 C353.312,327.495 358.59,323.683 363.009,319 C402.292,277.369 353.551,234.489 394.009,194 C400.699,187.305 408.83,182.241 417.57,178.425 " fill="none" id="_app_routing_module-&gt;_attributions_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="422.482,176.431,412.6383,176.1113,417.8494,178.3123,415.6484,183.5234,422.482,176.431" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[3d7be8226638f3d788ce19ef6bb9330a]
+link _app_routing_module to _home_component--><path d="M347.609,356.056 C374.739,361.08 406.182,366.902 433.321,371.928 " fill="none" id="_app_routing_module-&gt;_home_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="438.336,372.857,430.216,367.2833,433.4198,371.9455,428.7576,375.1492,438.336,372.857" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[5a93d12fda9f4390c82abaae96098b7a]
+link _app_routing_module to _projects_component--><path d="M341.843,326.877 C349.041,324.418 356.238,321.774 363.009,319 C377.357,313.123 379.475,308.399 394.009,303 C404.169,299.226 415.1,295.878 425.929,292.956 " fill="none" id="_app_routing_module-&gt;_projects_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="430.894,291.643,421.1708,290.0745,426.0599,292.9201,423.2142,297.8091,430.894,291.643" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[28b2179fec912235622d4b03e22b6819]
+link <b>app.component.spec</b> to _app_component--><path d="M214.59,302.762 C202.414,307.988 191.402,315.686 184.509,327 C176.647,339.905 176.647,348.095 184.509,361 C192.616,374.307 206.532,382.371 221.333,387.222 " fill="none" id="&lt;b&gt;app.component.spec&lt;/b&gt;-&gt;_app_component" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="226.379,388.747,218.922,382.3132,221.593,387.2998,216.6065,389.9708,226.379,388.747" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[1fa0a0571bb4a8a504800fad6c4cc388]
+link <b>app.e2e-spec</b> to _app_po--><path d="M97.509,202.895 C97.509,206.363 97.509,209.831 97.509,213.3 " fill="none" id="&lt;b&gt;app.e2e-spec&lt;/b&gt;-&gt;_app_po" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="97.509,218.75,101.509,209.75,97.509,213.75,93.509,209.75,97.509,218.75" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[2b2ccbddde088a2b5d656afed8e0546e]
+link _app_module to _aboutme_component--><path d="M131.61,402.215 C151.102,411.7864 176.477,423.2864 200.009,431 C274.663,455.4712 363.018,472.7349 424.135,482.9279 " fill="none" id="_app_module-&gt;_aboutme_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="429.224,483.7707,420.9987,478.3536,424.2912,482.9536,419.6913,486.2461,429.224,483.7707" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[6a3ddaf918cbbc5f78ab92032c12e066]
+link _app_module to _app_routing_module--><path d="M141.18,375.387 C161.779,370.747 187.031,365.058 210.354,359.804 " fill="none" id="_app_module-&gt;_app_routing_module" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="215.299,358.69,205.6395,356.7682,210.4215,359.7901,207.3996,364.5721,215.299,358.69" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[ba9a086ca93d87fe416957c5bd91b86f]
+link _app_module to _app_component--><path d="M141.18,387.11 C165.017,388.289 195.086,389.776 221.184,391.066 " fill="none" id="_app_module-&gt;_app_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="226.348,391.322,217.5567,386.8821,221.3541,391.0749,217.1613,394.8723,226.348,391.322" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[0dcf1c1479e7da4b8f4672a6e5ea7d2a]
+link _app_module to _attributions_component--><path d="M141.185,377.151 C151.463,373.45 161.6,368.006 169.009,360 C204.962,321.147 162.461,282.314 200.009,245 C257.078,188.286 350.059,171.628 417.093,167.539 " fill="none" id="_app_module-&gt;_attributions_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="422.278,167.244,413.0651,163.7622,417.2861,167.5283,413.52,171.7493,422.278,167.244" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[1b56b30ae63883549611ef32c9181630]
+link _app_module to _home_component--><path d="M139.715,402.172 C157.863,408.848 179.65,415.6807 200.009,419 C271.509,430.6571 291.444,430.2571 363.009,419 C377.31,416.7505 380.07,412.9093 394.009,409 C406.615,405.465 420.163,401.989 433.19,398.805 " fill="none" id="_app_module-&gt;_home_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="438.346,397.554,428.6562,395.7911,433.4872,398.734,430.5443,403.5651,438.346,397.554" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[f02e329ee8d27e48ed2ce7261a2fc71f]
+link _app_module to _projects_component--><path d="M141.257,376.737 C151.412,373.043 161.472,367.706 169.009,360 C199.768,328.55 164.363,291.779 200.009,266 C234.758,240.87 349.172,253.214 425.827,265.104 " fill="none" id="_app_module-&gt;_projects_component" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="430.821,265.886,422.5489,260.5406,425.8813,265.1118,421.3102,268.4441,430.821,265.886" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[97532c01020a3bedca9d8f02defb0415]
+link <b>attributions.component.spec</b> to _attributions_component--><path d="M499.509,134.532 C499.509,138.222 499.509,141.912 499.509,145.601 " fill="none" id="&lt;b&gt;attributions.component.spec&lt;/b&gt;-&gt;_attributions_component" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="499.509,150.633,503.509,141.633,499.509,145.633,495.509,141.633,499.509,150.633" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[b9943f068812d26cdd16cb3e93865beb]
+link <b>home.component.spec</b> to _home_component--><path d="M499.509,351.03 C499.509,354.438 499.509,357.846 499.509,361.254 " fill="none" id="&lt;b&gt;home.component.spec&lt;/b&gt;-&gt;_home_component" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="499.509,366.609,503.509,357.609,499.509,361.609,495.509,357.609,499.509,366.609" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[49d82cc179279774c0f16d837713b4e0]
+link <b>main</b> to _app_module--><path d="M71.9199,297.272 C51.0379,299.069 23.0167,305.469 10.509,326 C4.497,335.868 4.497,342.132 10.509,352 C18.815,365.634 33.6738,373.659 48.7882,378.375 " fill="none" id="&lt;b&gt;main&lt;/b&gt;-&gt;_app_module" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="53.9147,379.85,46.372,373.517,49.1097,378.4672,44.1595,381.205,53.9147,379.85" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[88eb4199d7809f82c2fb8c569468a51b]
+link <b>main</b> to environment--><path d="M97.509,310.084 C97.509,313.538 97.509,316.993 97.509,320.447 " fill="none" id="&lt;b&gt;main&lt;/b&gt;-&gt;environment" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="97.509,325.875,101.509,316.875,97.509,320.875,93.509,316.875,97.509,325.875" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[ef76ec340cdc8674b7e6dd221e1478ad]
+link <b>projects.component.spec</b> to _projects_component--><path d="M499.509,244.565 C499.509,248.288 499.509,252.012 499.509,255.735 " fill="none" id="&lt;b&gt;projects.component.spec&lt;/b&gt;-&gt;_projects_component" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="499.509,260.812,503.509,251.812,499.509,255.812,495.509,251.812,499.509,260.812" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[72ccd236d61921b46432db493c85ea4e]
+link <b>aws-exports</b> to <b>environment.prod</b>--><!--MD5=[23473daf8d7e32b3e4774ea3bf3ad8d6]
+link <b>environment.prod</b> to <b>karma.conf</b>--><!--MD5=[cb190ff08d48f86fb3cbd6b4e772fe04]
+link <b>aws-exports</b> to <b>polyfills</b>--><!--MD5=[dc5f1d9db2a837e3fd702b4955eea1bd]
+link <b>polyfills</b> to <b>protractor.conf</b>--><!--MD5=[689a838e94448c674fc7fa47c776c845]
+link <b>protractor.conf</b> to <b>test</b>--><script type="text/plantuml"><![CDATA[MD5=[5ffd8346d6fca638085afc6d9f8337d9]
+@startuml
+
+scale max 1920 width
+left to right direction
+
+skinparam nodesep 16
+skinparam ranksep 31
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+rectangle "aboutme.component" as _aboutme_component
+(<b>aboutme.component.spec</b>)
+rectangle "app-routing.module" as _app_routing_module
+rectangle "app.component" as _app_component
+(<b>app.component.spec</b>)
+(<b>app.e2e-spec</b>)
+rectangle "app.module" as _app_module
+rectangle "app.po" as _app_po
+rectangle "attributions.component" as _attributions_component
+(<b>attributions.component.spec</b>)
+(<b>aws-exports</b>)
+(environment)
+(<b>environment.prod</b>)
+rectangle "home.component" as _home_component
+(<b>home.component.spec</b>)
+(<b>karma.conf</b>)
+(<b>main</b>)
+(<b>polyfills</b>)
+rectangle "projects.component" as _projects_component
+(<b>projects.component.spec</b>)
+(<b>protractor.conf</b>)
+(<b>test</b>)
+
+
+(<b>aboutme.component.spec</b>) -[thickness=1]> _aboutme_component
+_app_routing_module --> _aboutme_component
+_app_routing_module --> _attributions_component
+_app_routing_module --> _home_component
+_app_routing_module --> _projects_component
+(<b>app.component.spec</b>) -[thickness=1]> _app_component
+(<b>app.e2e-spec</b>) -[thickness=1]> _app_po
+_app_module --> _aboutme_component
+_app_module --> _app_routing_module
+_app_module --> _app_component
+_app_module --> _attributions_component
+_app_module --> _home_component
+_app_module --> _projects_component
+(<b>attributions.component.spec</b>) -[thickness=1]> _attributions_component
+(<b>home.component.spec</b>) -[thickness=1]> _home_component
+(<b>main</b>) -[thickness=1]> _app_module
+(<b>main</b>) -[thickness=1]> (environment)
+(<b>projects.component.spec</b>) -[thickness=1]> _projects_component
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>
