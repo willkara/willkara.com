@@ -34,7 +34,7 @@
     "projectAPI": {
       "Type": "AWS::ApiGateway::RestApi",
       "Properties": {
-        "Description": "",
+        "Description": "Simple API for retrieving project listings.",
         "Name": "projectAPI",
         "Body": {
           "swagger": "2.0",
