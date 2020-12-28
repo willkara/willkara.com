@@ -12,6 +12,7 @@ import { AttributionsComponent } from './components/attributions/attributions.co
 import { ProjectEntryComponent } from './components/project-entry/project-entry.component';
 import { ProjectService } from './services/project.service';
 import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
+import { ContactService } from './services/contact.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
     NgbModule,
     AmplifyUIAngularModule,
   ],
-  providers: [ProjectService],
+  providers: [ProjectService, ContactService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

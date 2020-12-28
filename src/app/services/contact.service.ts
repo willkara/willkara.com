@@ -4,13 +4,13 @@ import API from '@aws-amplify/api';
 @Injectable({
   providedIn: 'root',
 })
-export class ProjectService {
+export class ContactService {
   apiName = 'homeAPI';
-  path = '/projects';
+  path = '/contacts';
 
   constructor() {}
 
-  getProjects(): void {
-    console.log('qqqqqqqqqqq');
+  sendContact(): void {
+    console.log('wwwwwwwwwwwwww');
   }
 }
