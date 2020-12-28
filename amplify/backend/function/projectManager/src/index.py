@@ -5,11 +5,12 @@ def handler(event, context):
   print('received event:')
   print(event)
   return {
-      'statusCode': '200',
-      'body': json.dumps(event),
+      'statusCode': 200,
       'headers': {
-          'Content-Type': 'application/json',
+          'Access-Control-Allow-Headers': 'Content-Type',
           'Access-Control-Allow-Origin': '*',
-      }
+          'Access-Control-Allow-Methods': 'OPTIONS,GET'
+      },
+      'body': json.dumps(event)
   }
 
