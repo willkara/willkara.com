@@ -41,12 +41,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "projectManager",
+            "ProjectManager",
             {
               "Fn::Join": [
                 "",
                 [
-                  "projectManager",
+                  "ProjectManager",
                   "-",
                   {
                     "Ref": "env"

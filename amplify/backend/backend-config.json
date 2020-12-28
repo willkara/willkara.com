@@ -6,7 +6,7 @@
     }
   },
   "function": {
-    "projectManager": {
+    "ProjectManager": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
@@ -20,16 +20,30 @@
           ]
         }
       ]
+    },
+    "ContactFunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": []
     }
   },
   "api": {
-    "projectListAPI": {
+    "HomeAPI": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "projectManager",
+          "resourceName": "ProjectManager",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "ContactFunction",
           "attributes": [
             "Name",
             "Arn"
