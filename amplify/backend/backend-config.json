@@ -14,22 +14,35 @@
         {
           "category": "storage",
           "resourceName": "projectlist",
-          "attributes": ["Name", "Arn"]
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
       ]
     }
   },
   "api": {
-    "projectAPI": {
+    "projectListAPI": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
           "resourceName": "projectManager",
-          "attributes": ["Name", "Arn"]
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
       ]
+    }
+  },
+  "auth": {
+    "cognito49309552": {
+      "service": "Cognito",
+      "serviceType": "managed",
+      "providerPlugin": "awscloudformation"
     }
   }
 }

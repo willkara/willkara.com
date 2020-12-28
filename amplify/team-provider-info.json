@@ -10,6 +10,11 @@
       "StackName": "amplify-willkara-prod-145730",
       "StackId": "arn:aws:cloudformation:us-east-1:252287541426:stack/amplify-willkara-prod-145730/ec09cf10-448f-11eb-83d3-123e22873efd",
       "AmplifyAppId": "doe39tgbmlh3t"
+    },
+    "categories": {
+      "auth": {
+        "cognito49309552": {}
+      }
     }
   }
 }

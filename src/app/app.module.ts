@@ -9,6 +9,9 @@ import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutmeComponent } from './components/aboutme/aboutme.component';
 import { AttributionsComponent } from './components/attributions/attributions.component';
+import { ProjectEntryComponent } from './components/project-entry/project-entry.component';
+import { ProjectService } from './services/project.service';
+import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
 
 @NgModule({
   declarations: [
@@ -17,14 +20,16 @@ import { AttributionsComponent } from './components/attributions/attributions.co
     ProjectsComponent,
     AboutmeComponent,
     AttributionsComponent,
+    ProjectEntryComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     NgbModule,
+    AmplifyUIAngularModule,
   ],
-  providers: [],
+  providers: [ProjectService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
