@@ -1,0 +1,54 @@
+{
+    "paths": [
+        {
+            "name": "/projects",
+            "lambdaFunction": "ProjectManager",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/projects"
+        },
+        {
+            "name": "/contact",
+            "lambdaFunction": "ContactFunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/contact"
+        }
+    ],
+    "resourceName": "HomeAPI",
+    "apiName": "HomeAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "ProjectManager"
+        },
+        {
+            "lambdaFunction": "ContactFunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-willkara-prod-145730-authRole",
+        "unAuthRoleName": "amplify-willkara-prod-145730-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "ProjectManager",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "ContactFunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

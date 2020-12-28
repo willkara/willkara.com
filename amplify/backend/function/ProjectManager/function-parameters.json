@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "storage": {
+      "projectlist": [
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
