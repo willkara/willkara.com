@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "API Gateway resource stack creation using Amplify CLI",
+  "Description": "Simple API to handle reads from the project DB.",
   "Parameters": {
     "authRoleName": {
       "Type": "String"
@@ -212,7 +212,7 @@
     "projectListAPI": {
       "Type": "AWS::ApiGateway::RestApi",
       "Properties": {
-        "Description": "",
+        "Description": "Simple API to handle reads from the project DB.",
         "Name": "projectListAPI",
         "Body": {
           "swagger": "2.0",

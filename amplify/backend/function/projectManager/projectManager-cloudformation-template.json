@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "Lambda Function resource stack creation using Amplify CLI",
+  "Description": "Lambda function to handle reads/gets from the project list DB.",
   "Parameters": {
     "CloudWatchRule": {
       "Type": "String",
@@ -83,7 +83,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-willkara-prod-145730-deployment",
-          "S3Key": "amplify-builds/projectManager-4a2b69367059784c7036-build.zip"
+          "S3Key": "amplify-builds/projectManager-3379513537662b55696e-build.zip"
         }
       }
     },
