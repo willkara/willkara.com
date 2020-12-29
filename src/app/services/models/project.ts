@@ -1,7 +1,7 @@
 export interface Project {
-  projectName: string;
-  projectLink: string;
-  projectImage: string;
-  projectActive: boolean;
-  projectDescription: string;
+  ProjectID: number;
+  ProjectName: string;
+  ProjectURL: string;
+  ProjectImage: string;
+  ProjectDescription: string;
 }

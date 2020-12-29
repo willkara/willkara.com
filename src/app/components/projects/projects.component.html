@@ -1,6 +1,28 @@
 <div class="p-4 p-md-5 pt-5" id="content">
   <h2 class="mb-4">My Projects</h2>
-  <p>This will contain a list of my projects.</p>
+  <p>This is in work....</p>
 
-  <app-project-entry></app-project-entry>
+  <div class="container">
+    <div *ngFor="let item of projectList" class="row project-listing">
+      <div class="col-md-3">
+        <img
+          src="https://mdbootstrap.com/img/new/standard/city/047.jpg"
+          class="img-fluid rounded"
+          alt=""
+        />
+      </div>
+      <div class="col-lg-8">
+        <div class="row justify-content-md-start">
+          <div class="col-lg-auto">
+            <h1>{{ item.ProjectName }}</h1>
+          </div>
+        </div>
+        <div class="row justify-content-md-start">
+          <div class="col-md-auto">
+            {{ item.ProjectDescription }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

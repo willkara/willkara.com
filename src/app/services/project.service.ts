@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import API from '@aws-amplify/api';
+import { Observable } from 'rxjs';
+import { Project } from './models/project';
 
 @Injectable({
   providedIn: 'root',
@@ -15,14 +17,7 @@ export class ProjectService {
 
   constructor() {}
 
-  getProjects(): void {
-    console.log('qqqqqqqqqqq');
-    API.get(this.apiName, this.path, this.myInit)
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error.response);
-      });
+  getProjects(): Promise<any> {
+    return API.get(this.apiName, this.path, this.myInit);
   }
 }
