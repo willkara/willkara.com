@@ -21,8 +21,7 @@ def handler(event, context):
   print('received event:')
   print(event)
   try:
-      response = table.get_item(Key={'ProjectID': 1})
-      print(response)
+      response = table.scan()
       return {
           'statusCode': 200,
           'headers': {
@@ -30,7 +29,7 @@ def handler(event, context):
               'Access-Control-Allow-Origin': '*',
               'Access-Control-Allow-Methods': 'OPTIONS,GET'
           },
-          'body': json.dumps(response['Item'],indent=4, cls=DecimalEncoder)
+          'body': json.dumps(response['Items'], cls=DecimalEncoder)
       }
   except botocore.exceptions.ClientError as e:
       print(e.response['Error']['Message'])
