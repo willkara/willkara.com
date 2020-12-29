@@ -3,6 +3,10 @@
     "projectlist": {
       "service": "DynamoDB",
       "providerPlugin": "awscloudformation"
+    },
+    "willkaraStatic": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
     }
   },
   "function": {
